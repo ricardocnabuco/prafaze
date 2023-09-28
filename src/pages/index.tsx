@@ -11,7 +11,7 @@ export default function Home() {
         <span>PraFazê </span>
          <img className={styles.imgPraFaze}></img>
      
-    </section>
+   </section>
     <div className={styles.telaPrincipal}>
       <form action="" method="">
         <input className={styles.button}  name="incluir" type="submit" value=" Incluir " />
