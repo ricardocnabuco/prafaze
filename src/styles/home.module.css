@@ -1,54 +1,79 @@
-.container{   
+.container {
+  background-color: #fff; 
   width: 100%;
-  height: 30vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+.titulo {
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  font-size: 30px;
+  padding: 10px 10px;
   
 }
-.container2{  
-  width: 100%;
-  height: 30vh;
+.logoPraFaze {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  font-family: Montserrat, sans-serif;
+  justify-content: center;
 }
-
-.container2 titulo {
-  font-family: Montserrat,sans-serif;
-  font-size: 35px;
+.imgPraFaze {
+  width:30px;
+  height: 30px;
+  background-image: url('../img/clipboard-text.png');
+  border: none;
 }
 
 .traco {
-  border: 4px solid #d3d3d3;
+  border: 2px solid #d3d3d3;
   margin: 1em 0;
-  border-radius: 12px;
+  border-radius: 10px;
 }
 
-.tela-principal{
+.telaPrincipal{
   background: #fff;
   padding: 30px 50px;
   border: 1px solid black;
   border-radius: 10px;
 }
-
 .button {
   float: right;
+}
+.button:hover {
+  color: red
+}
+.button2 {
+  float: left;
+  background-color: #d3d3d3;
+  padding: 10px 10px;
+  margin: 15px;
+  border-radius: 4px;
+  transition: transform 0.4s
+}
+.button2:hover {
+  transform: scale(1.08);
+  color: red;
 }
 .input {
   overflow: hidden;
   height: 25px;
   padding: 0 3px 0 0;
-
 }
 .input input {
   width: 100%;
 }
 
-.footer {
-  font-family: arial, verdana, sans-serif;
-  text-align: center;
-  font-size: 14px;
-}
+@media screen and (max-width:580px) {
 
+  .telaPrincipal {
+    flex-direction: column;
+  }
+  .button2 {
+    width: 80%;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+}
