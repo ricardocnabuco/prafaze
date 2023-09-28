@@ -3,17 +3,14 @@ import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
 import Image from 'next/image'
 
-
 export default function Home() {
   return (
 
   <div className={styles.container}>
     <section className={styles.titulo}>
-        <span>PraFazê</span>
+        <span>PraFazê </span>
          <img className={styles.imgPraFaze}></img>
      
-
-
     </section>
     <div className={styles.telaPrincipal}>
       <form action="" method="">
