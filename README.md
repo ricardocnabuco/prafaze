@@ -14,3 +14,11 @@ https://pt.vitejs.dev/guide/
 Biblioteca?<br>
 React versão 18.2.15
 
+Utiliza banco de dados? <br>
+Não. 
+
+Utiliza useState? <br>
+Sim.
+
+O que é useState? <br>
+O useState() é um gancho que permite que você tenha variáveis ​​de estado em componentes funcionais.
