@@ -1,9 +1,7 @@
 ## PraFazê
 
 O que é PraFazê  ? <br>
-Aplicativo simples para controle de tarefas e além do cadastro
-da tarefa é mandatório selecionar o tipo de categoria "casa", "trabalho" ou "lazer". O aplicativo permite consultar todas as tarefas, somente
-incompletas e completas.
+É um simplea aplicativo que cadastra tarefas, seleciona o tipo de categoria "casa", "trabalho" ou "lazer". O aplicativo permite consultar todas as tarefas, somente incompletas ou completas.
 
 Objetivo?<br>
 Aprender o REACT e Vite
