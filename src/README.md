@@ -9,5 +9,3 @@ Aprender o REACT/NEXTJS
 Biblioteca?<br>
 React versão 18.2.0
 
-Framework?<br>
-Next.js versão 13.5.2
