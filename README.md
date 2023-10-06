@@ -11,6 +11,9 @@ O que é o Vite?<br>
 É um ferramenta de construção de projetos de frontend, com características como a importação dinâmica de módulos de ECMAScript nativo além do pré-empacotamento de Dependência.
 https://pt.vitejs.dev/guide/
 
+Porque 'Vite'? <br>
+https://pt.vitejs.dev/guide/why.html
+
 Biblioteca?<br>
 React versão 18.2.15
 
